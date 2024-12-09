@@ -7,11 +7,12 @@ class Program
         var firstNumber = 30.0;
         var secondNumber = 10.0;
 
-        Console.WriteLine(Addition(firstNumber, secondNumber));
-        Console.WriteLine(Subtraction(firstNumber, secondNumber));
-        Console.WriteLine(Multiplication(firstNumber, secondNumber));
-        Console.WriteLine(Division(firstNumber, secondNumber));
-        Console.WriteLine(Average(firstNumber, secondNumber));
+        Console.WriteLine("Números: {0}, {1}", firstNumber, secondNumber);
+        Console.WriteLine("Adição: " + Addition(firstNumber, secondNumber));
+        Console.WriteLine("Subtração: " + Subtraction(firstNumber, secondNumber));
+        Console.WriteLine("Multiplicação: " + Multiplication(firstNumber, secondNumber));
+        Console.WriteLine("Divisão: " + Division(firstNumber, secondNumber));
+        Console.WriteLine("Média: " + Average(firstNumber, secondNumber));
     }
 
     private static double Addition(double num1, double num2) => num1 + num2;
